@@ -1,0 +1,18 @@
+a=["hello",1,"nikhil",2,4]
+print(a)
+for i in a:
+    print(i)
+a.append(4)
+a.append(7.2)
+a.append("vinay")
+print("after adding elements:")
+print(a)
+a.extend([22,"python"])
+print(a)
+print(a[2:5])
+print("removing element:",a.pop())
+print(a)
+a.remove(22)
+print(a)
+a.pop(2)
+print("final list is :",a)
